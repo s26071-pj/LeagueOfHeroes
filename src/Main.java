@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args){
 
         Hero mage = new Mage();
-        Knight knight = new Knight();
-        Archer archer = new Archer();
+        Hero knight = new Knight();
+        Hero archer = new Archer();
 
         mage.setName("Gandalf");
         knight.setName("Aragorn");
@@ -40,8 +40,8 @@ public class Main {
             archer.raiseSpd();
             archer.raiseStr();
         }
-        mage.printoutHero();
 
+        mage.printoutHero();
         knight.printoutHero();
         archer.printoutHero();
     }
